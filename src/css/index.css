@@ -1,0 +1,332 @@
+body {
+  background-color: #f8f9fb;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  background-image: url(../images/background.png);
+  width: 1440px;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+}
+.features {
+  background-color: #4a508e;
+  width: 1440px;
+  height: 1000px;
+  align-items: center;
+  justify-content: center;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: bottom;
+  padding: 20px 24px;
+  gap: 50px;
+
+  position: fixed;
+  width: 1024px;
+  min-width: 1024px;
+  height: 40px;
+  left: calc(50% - 1024px / 2);
+  top: 15px;
+
+  /* Glass */
+  background: rgba(214, 214, 214, 0.4);
+  backdrop-filter: blur(15px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 35px;
+}
+.createnary {
+  width: 100px;
+  height: 40px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.search {
+  padding-top: 20px;
+
+  width: 300px;
+}
+.nav {
+  width: 400px;
+}
+.nav-menu {
+  display: flex;
+  color: #0a0a0a;
+  width: 400px;
+  list-style: none;
+}
+.nav-menu li {
+  padding: 0 1rem;
+}
+
+.nav-menu li a {
+  font-size: 1.2em;
+  font-weight: 500;
+  text-decoration: none;
+  color: #0c0c0c;
+}
+.hamburger {
+  display: none;
+}
+.hero-container {
+  padding-top: 120px;
+  height: 600px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+}
+.hero-content {
+  padding: 250px;
+  width: 400px;
+  height: 400px;
+}
+.hero-image {
+  background-image: url(../images/hero_image.png);
+
+  width: 630px;
+  height: 630px;
+}
+.blue-text {
+  color: #4a508e;
+}
+.button {
+  background-color: #4a508e;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  color: #ffffff;
+}
+.calculator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+}
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 800px;
+}
+.calculator-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.calculator-influencer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 500px;
+}
+.calculator-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 500px;
+}
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 1600px;
+}
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 10px;
+}
+.faq-text {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  background-color: #dfd9d9;
+  width: 800px;
+  border-radius: 35px;
+  margin: 20px;
+}
+.faq-text-answer {
+  display: flex;
+  flex-direction: column;
+  background-color: #dfd9d9;
+  width: 800px;
+  padding-left: 15px;
+  border-radius: 35px;
+  margin: 20px;
+}
+.faq-text-answer-con {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  padding-left: 15px;
+  border-radius: 35px;
+  margin: 20px;
+}
+.question {
+  width: 700px;
+}
+.answer {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+.plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}
+.footer {
+  background-color: #4a508e;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+.footer-main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80%;
+}
+.footer-createnary {
+  display: flex;
+  width: 50%;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  width: 33%;
+  align-items: left;
+  justify-content: center;
+}
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  width: 33%;
+  align-items: left;
+  justify-content: center;
+}
+.footer-copyright {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.works {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 200px;
+}
+.works-left {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.vertical-line-container {
+  display: flex;
+  align-items: stretch; /* Make sure both children elements stretch to the same height */
+}
+
+.vertical-line {
+  border-left: 1px solid black; /* Width, style, and color of the line */
+  height: 1600px; /* Height of the line */
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 30px; /* Adjust spacing as needed */
+  height: 1600px;
+}
+
+.numbers > div {
+  font-size: 14px; /* Adjust font size as needed */
+}
+.box {
+  background-color: #4a508e;
+  color: #f8f9fb;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Tablet and smaller screens */
+@media screen and (max-width: 1024px) {
+  .header {
+    height: 400px;
+  }
+
+  .menu {
+    width: 100%; /* Change width to 100% for responsiveness */
+    left: 0;
+    top: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: bottom;
+  }
+
+  .nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: bottom;
+  }
+
+  .calculator-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: bottom;
+  }
+
+  .faq-container,
+  .works {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: bottom;
+  }
+
+  .works-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: bottom;
+  }
+  .hamburger {
+    display: initial;
+  }
+}
